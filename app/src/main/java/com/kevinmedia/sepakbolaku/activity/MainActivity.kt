@@ -1,4 +1,4 @@
-package com.kevinmedia.sepakbolaku
+package com.kevinmedia.sepakbolaku.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,7 +7,10 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.kevinmedia.sepakbolaku.PlayerDetail.Companion.EXTRA_PLAYER
+import com.kevinmedia.sepakbolaku.adapter.ListPlayerAdapter
+import com.kevinmedia.sepakbolaku.data.Player
+import com.kevinmedia.sepakbolaku.activity.PlayerDetail.Companion.EXTRA_PLAYER
+import com.kevinmedia.sepakbolaku.R
 import com.kevinmedia.sepakbolaku.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

@@ -1,8 +1,9 @@
-package com.kevinmedia.sepakbolaku
+package com.kevinmedia.sepakbolaku.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import com.kevinmedia.sepakbolaku.R
 
 class Author : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

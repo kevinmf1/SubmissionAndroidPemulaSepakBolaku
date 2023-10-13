@@ -1,4 +1,4 @@
-package com.kevinmedia.sepakbolaku
+package com.kevinmedia.sepakbolaku.activity
 
 import android.content.Intent
 import android.graphics.Bitmap
@@ -11,6 +11,8 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.ImageView
 import android.widget.TextView
+import com.kevinmedia.sepakbolaku.data.Player
+import com.kevinmedia.sepakbolaku.R
 import java.io.ByteArrayOutputStream
 
 class PlayerDetail : AppCompatActivity() {
