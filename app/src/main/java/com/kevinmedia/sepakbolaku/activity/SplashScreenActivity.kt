@@ -1,9 +1,10 @@
-package com.kevinmedia.sepakbolaku
+package com.kevinmedia.sepakbolaku.activity
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
+import com.kevinmedia.sepakbolaku.R
 
 
 class SplashScreenActivity : AppCompatActivity() {

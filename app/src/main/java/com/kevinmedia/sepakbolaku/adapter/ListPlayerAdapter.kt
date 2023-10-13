@@ -1,4 +1,4 @@
-package com.kevinmedia.sepakbolaku
+package com.kevinmedia.sepakbolaku.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.kevinmedia.sepakbolaku.R
+import com.kevinmedia.sepakbolaku.data.Player
 
 class ListPlayerAdapter(private val listPlayer: ArrayList<Player>): RecyclerView.Adapter<ListPlayerAdapter.ListViewHolder>() {
 

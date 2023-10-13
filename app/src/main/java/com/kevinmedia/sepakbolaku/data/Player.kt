@@ -1,4 +1,4 @@
-package com.kevinmedia.sepakbolaku
+package com.kevinmedia.sepakbolaku.data
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

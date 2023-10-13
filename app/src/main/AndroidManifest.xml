@@ -12,16 +12,16 @@
         tools:targetApi="31" >
 
         <activity
-            android:name=".Author"
+            android:name=".activity.Author"
             android:exported="false"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".PlayerDetail"
+            android:name=".activity.PlayerDetail"
             android:exported="false"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".activity.MainActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".activity.SplashScreenActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:screenOrientation="portrait">
@@ -32,7 +32,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="false"
             android:screenOrientation="portrait"/>
 
